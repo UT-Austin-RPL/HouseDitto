@@ -128,7 +128,7 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
 </p>
 
 
-<br><br><hr> <h1 align="center">Framework</h1> <!-- <h2
+<br><hr> <h1 align="center">Framework</h1> <!-- <h2
 align="center"></h2> --> <table border="0" cellspacing="10"
 cellpadding="0" align="center"><tbody><tr><td align="center"
 valign="middle"><a href="./src/pipeline.png"> <img
@@ -143,7 +143,7 @@ src="./src/framework.jpg" style="width:100%;"> </a></td>
 <h1 align="center">Reconstruction Results</h1>
 <table border="0" cellspacing="10" cellpadding="0" align="center">
   <tbody><tr><td>
-  <p align="justify" width="20%">We show qualitative results on the iGibson scenes. Our refined model first opens the cabinet to a larger degree and reveals more previously occluded surfaces. With the new observation with more significant object state change, our refined model can predict more accurate part segmentation and joint parameters.
+  <p align="justify" width="20%">We show qualitative results on the iGibson scenes. Our model first opens the cabinet to a larger degree and reveals more previously occluded surfaces. With the new observation with more significant object state change, our refined model can predict more accurate part segmentation and joint parameters.
   </p>
 </td></tr>
 </tbody>
