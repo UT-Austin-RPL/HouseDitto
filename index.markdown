@@ -6,7 +6,7 @@ categories: projects
 
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Ditto</title>
+<title>Ditto in the House</title>
 
 
 <!-- <meta property="og:image" content="images/teaser_fb.jpg"> -->
@@ -104,7 +104,7 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
 <body data-gr-c-s-loaded="true">
 
 <div id="primarycontent">
-<center><h1><strong>Ditto in the House: An Interactive Perception Approach to Building <br>  Articulated Models of Indoor Environments</strong></h1></center>
+<center><h1><strong>Ditto in the House: Building Articulated Models of Indoor Scenes through Interactive Perception</strong></h1></center>
 <center><h2>
     <a href="https://chengchunhsu.github.io/">Cheng-Chun Hsu</a>&nbsp;&nbsp;&nbsp; 
     <a href="https://zhenyujiang.me/">Zhenyu Jiang</a>&nbsp;&nbsp;&nbsp;
@@ -114,6 +114,39 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
         <a href="https://www.cs.utexas.edu/">The University of Texas at Austin</a>&nbsp;&nbsp;&nbsp; 		
     </h2></center>
 
+
+<p>
+<div width="500"><p>
+  <table align=center width=800px>
+                <tr>
+                    <td>
+<p align="justify" width="20%">
+  Virtualizing the physical world into 3D models is essential for robots to operate in real-world environments. To step from navigation to manipulation, we explore building articulated models of objects in unstructured indoor scenes, which could guide the robot's physical interactions. Prior works on articulation reasoning primarily focus on individual objects. To extend to room-scale environments, the robot has to efficiently and effectively explore a large-scale 3D space, identify the locations of articulated objects, and infer their articulations from raw perception. We introduce an interactive perception approach for this task. Our approach discovers possible articulated objects through affordance prediction, interacts with these objects to produce articulated motions, and infers the articulation properties from the visual observations before and after interactions. It also tightly couples affordance prediction and articulation inference to iteratively refine both sub-tasks. We demonstrate the effectiveness of our approach in both simulation and real-world scenes.
+</p></td></tr></table>
+</p>
+</div>
+</p>
+
+
+<br><hr>
+<h1 align="center">Real World Experiment</h1>
+<table border="0" cellspacing="10"
+cellpadding="0"><tr><td>
+<p> We evaluate the proposed framework in several real world scene. We use the LiDAR and camera of an iPhone 12 Pro to recreate the scene as a 3D model. We predict interaction hotspots and interaction with the objects at these hotspots with our own hands. Then we collect novel observations and run our method to build a scene-level articulated model. Our method can be applied to the real scenario without any modification and reconstruct an accurate articulated model of the scene. </p></td></tr></table>
+
+<table border="0" cellspacing="10" cellpadding="0" align="center">
+  <tbody>
+  <tr>
+    <td align="center" valign="middle">
+      <video muted autoplay width="94%">
+        <source src="./video/real_kitchen.mp4"  type="video/mp4">
+      </video>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+
 <!-- <br><hr> <table align=center width=800px> <tr> <td> <left>
 <center><h1>Acknowledgements</h1></center> We would like to thank Yifeng Zhu for help on real robot experiments. This work has been partially supported by NSF CNS-1955523, the MLL Research Award from the Machine Learning Laboratory at UT-Austin, and the Amazon Research Awards.
  -->
@@ -121,15 +154,17 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
 <!-- </left></td></tr></table>
 <br><br> -->
 
+
+
 <div style="display:none">
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PPXN40YS69"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7GF0RHBSDK"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-PPXN40YS69');
+  gtag('config', 'G-7GF0RHBSDK');
 </script>
 <!-- </center></div></body></div> -->
 

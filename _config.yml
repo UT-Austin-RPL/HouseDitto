@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ditto
-email: zhenyu@cs.utexas.edu
+title: Ditto in the House
+email: chengchun@utexas.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Website for paper "Ditto: Building Digital Twins of Articulated Objects from Interaction"
+  Website for paper "Ditto in the House: Building Articulated Models of Indoor Scenes through Interactive Perception"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: Steve-Tod
+github_username: chengchunhsu
 
 # Build settings
 theme: minima
