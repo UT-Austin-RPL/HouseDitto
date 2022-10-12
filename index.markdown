@@ -128,6 +128,33 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
 </p>
 
 
+<br><hr>
+<h1 align="center">Problem Definition</h1>
+
+<!-- <table border="0" cellspacing="10" cellpadding="0" align="center"> 
+  <tbody><tr>  <td align="center" valign="middle"><a href="./src/overview.png"> <img src="./src/overview.png" style="width:100%;">  </a></td>
+  </tr>
+</tbody>
+</table> -->
+
+<table border="0" cellspacing="10" cellpadding="0" align="center">
+  <tbody>
+  <tr>
+    <td align="center" valign="middle">
+    <img src="./src/teaser.jpg" style="width:100%;">
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+  <table align=center width=800px>
+                <tr>
+                    <td>
+  <p align="justify" width="20%">
+  We study the problem of reconstructing an articulated model of an indoor scene populated with multiple articulated objects. An articulated object consists of multiple parts, and their connecting joints constrain the relative motion between each pair of parts. Scene-level articulated model not only informs the robot where are the interactable regions but also gives more context about how to interact with the objects.
+</p></td></tr></table>
+
+
 <br><hr> <h1 align="center">Framework</h1> <!-- <h2
 align="center"></h2> --> <table border="0" cellspacing="10"
 cellpadding="0" align="center"><tbody><tr><td align="center"
