@@ -158,7 +158,7 @@ Virtualizing the physical world into 3D models is essential for robots to operat
 <br><hr> <h1 align="center">Framework</h1> <!-- <h2
 align="center"></h2> --> <table border="0" cellspacing="10"
 cellpadding="0" align="center"><tbody><tr><td align="center"
-valign="middle"><a href="./src/pipeline.png"> <img
+valign="middle"><a href="./src/framework.jpg"> <img
 src="./src/framework.jpg" style="width:100%;"> </a></td>
 </tr> </tbody> </table>
 
