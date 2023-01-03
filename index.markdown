@@ -6,7 +6,7 @@ categories: projects
 
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Ditto in the House</title>
+<title>Ditto in the House: Building Articulated Models of Indoor Scenes through Interactive Perception</title>
 
 
 <!-- <meta property="og:image" content="images/teaser_fb.jpg"> -->
