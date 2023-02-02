@@ -104,7 +104,7 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
 <body data-gr-c-s-loaded="true">
 
 <div id="primarycontent">
-<center><h1><strong>Ditto in the House: Building Articulated Models of Indoor Scenes through Interactive Perception</strong></h1></center>
+<center><h1><strong>Ditto in the House <img width="50" style='display:inline;' src="./src/ditto.png"/> <br>Building Articulated Models of Indoor Scenes through Interactive Perception</strong></h1></center>
 <center><h2>
     <a href="https://chengchunhsu.github.io/">Cheng-Chun Hsu</a>&nbsp;&nbsp;&nbsp; 
     <a href="https://zhenyujiang.me/">Zhenyu Jiang</a>&nbsp;&nbsp;&nbsp;
@@ -121,7 +121,7 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
                 <tr>
                     <td>
 <p align="justify" width="20%">
-Virtualizing the physical world into 3D models is essential for robots to operate in real-world environments. To step from navigation to manipulation, we explore building articulated models of objects in unstructured indoor scenes, which could guide the robot's physical interactions. Prior works on articulation reasoning primarily focus on individual objects. To extend to room-scale environments, the robot has to efficiently and effectively explore a large-scale 3D space, identify the locations of articulated objects, and infer their articulations from raw perception. We introduce an interactive perception approach for this task. Our approach discovers possible articulated objects through affordance prediction, interacts with these objects to produce articulated motions, and infers the articulation properties from the visual observations before and after interactions. It also tightly couples affordance prediction and articulation inference to iteratively refine both sub-tasks. We demonstrate the effectiveness of our approach in both simulation and real-world scenes.
+Virtualizing the physical world into virtual models has been a critical technique for robot navigation and planning in the real world. To foster manipulation with articulated objects in everyday life, this work explores building articulation models of indoor scenes through a robot's purposeful interactions in these scenes. Prior work on articulation reasoning primarily focuses on siloed objects of limited categories. To extend to room-scale environments, the robot has to efficiently and effectively explore a large-scale 3D space, locate articulated objects, and infer their articulations. We introduce an interactive perception approach to this task. Our approach, named Ditto in the House, discovers possible articulated objects through affordance prediction, interacts with these objects to produce articulated motions, and infers the articulation properties from the visual observations before and after each interaction. It tightly couples affordance prediction and articulation inference to improve both tasks. We demonstrate the effectiveness of our approach in both simulation and real-world scenes.
 </p></td></tr></table>
 </p>
 </div>
@@ -151,7 +151,7 @@ Virtualizing the physical world into 3D models is essential for robots to operat
                 <tr>
                     <td>
   <p align="justify" width="20%">
-  We study the problem of reconstructing an articulated model of an indoor scene populated with multiple articulated objects. An articulated object consists of multiple parts, and their connecting joints constrain the relative motion between each pair of parts. Scene-level articulated model not only informs the robot where are the interactable regions but also gives more context about how to interact with the objects.
+  We explore the problem of building an articulation model of an indoor scene populated with articulated objects. An articulated object consists of multiple parts, and their connecting joints constrain the relative motion between each pair of parts. Scene-level articulated model informs the robot where the interactable regions are and gives more context about how to interact with the objects.
 </p></td></tr></table>
 
 
@@ -162,7 +162,7 @@ valign="middle"><a href="./src/framework.jpg"> <img
 src="./src/framework.jpg" style="width:100%;"> </a></td>
 </tr> </tbody> </table>
 
-<table width=800px><tr><td> <p align="justify" width="20%">Our method is divided into two stages: affordance prediction and articulation inference. During affordance prediction, we pass the static scene point cloud into the affordance network and predict the scene-level affordance map. By applying point non-maximum suppression (NMS), we extract the interaction hotspots from the affordance map. Then, the robot interacts with the object based on those contact points. During articulation inference, we feed the point cloud observations before and after each interaction into the articulation model network to obtain articulation estimation. By aggregating the estimated articulation models, we build the articulated models of the entire scene.  </p></td></tr></table>
+<table width=800px><tr><td> <p align="justify" width="20%">Our approach consists of two stages --- affordance prediction and articulation inference. During affordance prediction, we pass the static scene point cloud into the affordance network and predict the scene-level affordance map. By applying point non-maximum suppression (NMS), we extract the interaction hotspots from the affordance map. Then, the robot interacts with the object based on those contact points. During articulation inference, we feed the point cloud observations before and after each interaction into the articulation model network to obtain articulation estimation. By aggregating the estimated articulation models, we build the articulation models of the entire scene.  </p></td></tr></table>
 <br>
 
 
@@ -190,7 +190,7 @@ src="./src/framework.jpg" style="width:100%;"> </a></td>
 <h1 align="center">Real World Experiment</h1>
 <table border="0" cellspacing="10"
 cellpadding="0"><tr><td>
-<p> We evaluate the proposed framework in two real world scenes. We use the LiDAR and camera of an iPhone 12 Pro to recreate the scene as a 3D model. We predict interaction hotspots and interaction with the objects at these hotspots with our own hands. Then we collect novel observations and run our method to build a scene-level articulated model. Our method can be applied to the real scenario without any modification and reconstruct an accurate articulated model of the scene. </p></td></tr></table>
+<p>We evaluate our method in a real-world household scene. We use the LiDAR and camera of an iPhone 12 Pro to recreate the scene in a 3D scan, rather than using a physical robot. We predict interaction hotspots and interact with the objects at these hotspots with our own hands. We then collect novel observations and run our approach to build the scene-level articulation model. The videos show that our approach can be applied to the real scenario without any modification and reconstruct an accurate articulation model of the scene. </p></td></tr></table>
 
 <h1 align="center">Kitchen</h1>
 <table border="0" cellspacing="10" cellpadding="0" align="center">
