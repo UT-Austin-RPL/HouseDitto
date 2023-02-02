@@ -104,7 +104,7 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
 <body data-gr-c-s-loaded="true">
 
 <div id="primarycontent">
-<center><h1><strong>Ditto in the House <img width="50" style='display:inline;' src="./src/ditto.png"/> <br>Building Articulated Models of Indoor Scenes through Interactive Perception</strong></h1></center>
+<center><h1><strong>Ditto in the House: Building Articulated Models of Indoor Scenes through Interactive Perception</strong></h1></center>
 <center><h2>
     <a href="https://chengchunhsu.github.io/">Cheng-Chun Hsu</a>&nbsp;&nbsp;&nbsp; 
     <a href="https://zhenyujiang.me/">Zhenyu Jiang</a>&nbsp;&nbsp;&nbsp;
