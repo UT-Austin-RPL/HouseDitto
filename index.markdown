@@ -116,6 +116,7 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
 <center><h2>
         ICRA 2023&nbsp;&nbsp;&nbsp; 		
     </h2></center>
+    <center><h2><a href="https://arxiv.org/abs/2302.01295">Paper</a> | <a href="">Code (Coming Soon)</a> </h2></center>
 
 
 <p>
@@ -229,6 +230,22 @@ cellpadding="0"><tr><td>
 <!-- </left></td></tr></table>
 <br><br> -->
 
+
+<hr />
+<center><h1>Citation</h1></center>
+<table align="center" width="800px">
+              <tr>
+                  <td>
+                  <left>
+<pre><code style="display:block; overflow-x: auto">
+@misc{Hsu2023DittoITH,
+  title={Ditto in the House: Building Articulation Models of Indoor Scenes through Interactive Perception},
+  author={Cheng-Chun Hsu and Zhenyu Jiang and Yuke Zhu},
+  publisher = {arXiv},
+  year={2023}
+}
+</code></pre>
+</left></td></tr></table>
 
 
 <div style="display:none">
