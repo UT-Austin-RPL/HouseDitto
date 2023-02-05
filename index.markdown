@@ -241,7 +241,7 @@ cellpadding="0"><tr><td>
 @misc{Hsu2023DittoITH,
   title={Ditto in the House: Building Articulation Models of Indoor Scenes through Interactive Perception},
   author={Cheng-Chun Hsu and Zhenyu Jiang and Yuke Zhu},
-  publisher = {arXiv},
+  publisher={arXiv},
   year={2023}
 }
 </code></pre>
