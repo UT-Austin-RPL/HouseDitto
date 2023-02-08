@@ -238,10 +238,10 @@ cellpadding="0"><tr><td>
                   <td>
                   <left>
 <pre><code style="display:block; overflow-x: auto">
-@misc{Hsu2023DittoITH,
+@inproceedings{Hsu2023DittoITH,
   title={Ditto in the House: Building Articulation Models of Indoor Scenes through Interactive Perception},
   author={Cheng-Chun Hsu and Zhenyu Jiang and Yuke Zhu},
-  publisher={arXiv},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   year={2023}
 }
 </code></pre>
