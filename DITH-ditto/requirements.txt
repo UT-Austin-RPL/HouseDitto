@@ -1,0 +1,24 @@
+# --------- pytorch --------- #
+pytorch-lightning==1.5.4
+torchmetrics==0.4.1
+setuptools==59.5.0
+
+# --------- hydra --------- #
+hydra-core==1.1.1
+hydra-colorlog>=1.1.0
+hydra-optuna-sweeper>=1.1.0
+
+# --------- loggers --------- #
+wandb==0.12.11
+
+# --------- others --------- #
+python-dotenv   # loading env variables from .env file
+rich            # beautiful text formatting in terminal
+scikit-learn
+
+# --------- Ditto --------- #
+open3d==0.12.0
+trimesh
+cython
+protobuf==3.19.4
+point-cloud-utils==0.23.0
