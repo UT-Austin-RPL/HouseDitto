@@ -1,0 +1,6 @@
+_target_: src.models.pointnet2_module.PointNet2Module
+
+data_dir: ${data_dir} # data_dir is specified in config.yaml
+
+num_class: 2
+lr: 0.001

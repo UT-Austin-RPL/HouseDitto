@@ -1,0 +1,8 @@
+_target_: src.datamodules.affordance_datamodule.AffordanceDataModule
+
+data_dir: ${data_dir} # data_dir is specified in config.yaml
+num_points: 4096
+
+batch_size: 32
+num_workers: 0
+pin_memory: False

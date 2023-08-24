@@ -1,0 +1,31 @@
+# @package _global_
+
+# specify here default evaluation configuration
+defaults:
+  - _self_
+  - datamodule: affordance.yaml # choose the datamodule for evaluation
+  - model: pointnet2.yaml
+  - callbacks: null
+  - logger: null
+  - trainer: default.yaml
+  - log_dir: evaluation.yaml
+
+  - experiment: null
+
+  # enable color logging
+  - override hydra/hydra_logging: colorlog
+  - override hydra/job_logging: colorlog
+
+original_work_dir: ${hydra:runtime.cwd}
+data_dir: null
+
+print_config: True
+
+ignore_warnings: True
+
+seed: null
+
+name: "default"
+
+# passing checkpoint path is required
+ckpt_path: null

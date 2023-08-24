@@ -1,0 +1,15 @@
+name: DITH-pointnet
+
+channels:
+  - pytorch
+  - conda-forge
+
+dependencies:
+  - python=3.8.12
+  - numpy=1.21.5
+  - pip
+  - cudatoolkit=11.3
+  - pytorch=1.10.2=py3.8_cuda11.3_cudnn8.2.0_0
+  - torchvision=0.11.3=py38_cu113
+  - pip:
+      - -r requirements.txt
