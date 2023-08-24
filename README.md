@@ -7,10 +7,12 @@ ICRA 2023
 
 [Project](https://ut-austin-rpl.github.io/HouseDitto/) | [arxiv](https://arxiv.org/abs/2302.01295)
 
-![intro](assets/framework.png)
+![teaser](assets/teaser.png)
 
 ## Introduction
 Our approach, named *Ditto in the House*, discovers possible articulated objects through affordance prediction, interacts with these objects to produce articulated motions, and infers the articulation properties from the visual observations before and after each interaction. The approach consists of two stages — affordance prediction and articulation inference. During affordance prediction, we pass the static scene point cloud into the affordance network and predict the scene-level affordance map. Then, the robot interacts with the object based on those contact points. During articulation inference, we feed the point cloud observations before and after each interaction into the articulation model network to obtain articulation estimation. By aggregating the estimated articulation models, we build the articulation models of the entire scene.
+
+![intro](assets/framework.png)
 
 If you find our work useful in your research, please consider [citing](#citing).
 
@@ -44,7 +46,7 @@ python scripts/convonet_setup.py build_ext --inplace
 ## Data Collection
 
 1. `cd DITH-igibson && conda activate DITH-igibson`
-2. Following [these instructions](https://github.com/StanfordVL/iGibson/tree/master/igibson/utils/data_utils/ext_scene) to import CubiCasa5k scenes into iGibon simulator.
+2. Follow [these instructions](https://github.com/StanfordVL/iGibson/tree/master/igibson/utils/data_utils/ext_scene) to import CubiCasa5k scenes into iGibon simulator.
 3. Generate training and testing data by running
 
 ```bash
