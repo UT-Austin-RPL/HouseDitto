@@ -45,7 +45,7 @@ python scripts/convonet_setup.py build_ext --inplace
 
 ## Data Collection
 
-1. `cd DITH-igibson && conda activate DITH-igibson`
+1. Run `cd DITH-igibson && conda activate DITH-igibson`
 2. Follow [these instructions](https://github.com/StanfordVL/iGibson/tree/master/igibson/utils/data_utils/ext_scene) to import CubiCasa5k scenes into iGibon simulator.
 3. Generate training and testing data by running
 
@@ -59,7 +59,7 @@ The generated data can be found under `dataset/cubicasa5k_rooms_processed`.
 
 ## Affordance Prediction
 
-1. `cd DITH-pointnet && conda activate DITH-pointnet`
+1. Run `cd DITH-pointnet && conda activate DITH-pointnet`
 2. Set the `datadir` in `configs/train_pointnet2.yaml` and `configs/test_pointnet2.yaml`.
 
 3. Train the model
@@ -78,7 +78,7 @@ python test.py
 
 ## Interaction
 
-1. `cd DITH-igibson && conda activate DITH-igibson`
+1. Run `cd DITH-igibson && conda activate DITH-igibson`
 2. Interact with the scene and save the results
 
 ```bash
@@ -104,7 +104,7 @@ The generated data can be found under `dataset/cubicasa5k_objects_processed`.
 
 ## Articulation Inference
 
-1. `cd DITH-ditto && conda activate DITH-ditto`
+1. Run `cd DITH-ditto && conda activate DITH-ditto`
 
 2. Train the model
 
