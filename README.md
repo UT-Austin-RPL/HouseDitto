@@ -60,7 +60,7 @@ The generated data can be found under `dataset/cubicasa5k_rooms_processed`.
 ## Affordance Prediction
 
 1. Run `cd DITH-pointnet && conda activate DITH-pointnet`
-2. Set the `datadir` in `configs/train_pointnet2.yaml` and `configs/test_pointnet2.yaml`.
+2. Set `datadir` in `configs/train_pointnet2.yaml` and `configs/test_pointnet2.yaml`.
 
 3. Train the model
 
@@ -68,9 +68,9 @@ The generated data can be found under `dataset/cubicasa5k_rooms_processed`.
 python train.py
 ```
 
-4. Set the `ckpt_path` in `configs/test_pointnet2.yaml`
+1. Set `ckpt_path` in `configs/test_pointnet2.yaml`
 
-5. Test the model
+2. Test the model
 
 ```bash
 python test.py
@@ -105,14 +105,18 @@ The generated data can be found under `dataset/cubicasa5k_objects_processed`.
 ## Articulation Inference
 
 1. Run `cd DITH-ditto && conda activate DITH-ditto`
+2. Set `data_dir` in `configs/config.yaml`.
 
-2. Train the model
+3. Train the model
 
 ```bash
 python run.py experiment=Ditto
 ```
 
-3. Test the model
+4. Set `resume_from_checkpoint` in `configs/experiment/Ditto_test.yaml`
+
+
+5. Test the model
 
 ```bash
 python run_test.py experiment=Ditto_test
