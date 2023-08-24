@@ -1,0 +1,14 @@
+name: DITH-igibson
+
+channels:
+  - pytorch
+  - conda-forge
+
+dependencies:
+  - python=3.8.12
+  - numpy=1.21.5
+  - pip
+  - cudatoolkit=11.1
+  - pytorch=1.8.0=py3.8_cuda11.1_cudnn8.0.5_0
+  - pip:
+      - -r requirements.txt

@@ -1,0 +1,7 @@
+# --------- iGibson --------- #
+igibson==2.0.5
+bddl
+
+# --------- others --------- #
+point-cloud-utils==0.22.0
+open3d
