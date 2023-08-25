@@ -116,7 +116,7 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
 <center><h2>
         ICRA 2023&nbsp;&nbsp;&nbsp; 		
     </h2></center>
-    <center><h2><a href="https://arxiv.org/abs/2302.01295">Paper</a> | <a href="">Code (Coming Soon)</a> </h2></center>
+    <center><h2><a href="https://arxiv.org/abs/2302.01295">Paper</a> | <a href="https://github.com/UT-Austin-RPL/HouseDitto">Code</a> </h2></center>
 
 
 <p>
