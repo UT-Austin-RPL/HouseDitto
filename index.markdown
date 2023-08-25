@@ -145,7 +145,7 @@ Virtualizing the physical world into virtual models has been a critical techniqu
   <tbody>
   <tr>
     <td align="center" valign="middle">
-    <img src="./src/teaser.jpg" style="width:100%;">
+    <img src="./src/teaser.png" style="width:100%;">
     </td>
   </tr>
   </tbody>
@@ -163,7 +163,7 @@ Virtualizing the physical world into virtual models has been a critical techniqu
 align="center"></h2> --> <table border="0" cellspacing="10"
 cellpadding="0" align="center"><tbody><tr><td align="center"
 valign="middle"><a href="./src/framework.jpg"> <img
-src="./src/framework.jpg" style="width:100%;"> </a></td>
+src="./src/framework.png" style="width:100%;"> </a></td>
 </tr> </tbody> </table>
 
 <table width=800px><tr><td> <p align="justify" width="20%">Our approach consists of two stages --- affordance prediction and articulation inference. During affordance prediction, we pass the static scene point cloud into the affordance network and predict the scene-level affordance map. By applying point non-maximum suppression (NMS), we extract the interaction hotspots from the affordance map. Then, the robot interacts with the object based on those contact points. During articulation inference, we feed the point cloud observations before and after each interaction into the articulation model network to obtain articulation estimation. By aggregating the estimated articulation models, we build the articulation models of the entire scene.  </p></td></tr></table>
